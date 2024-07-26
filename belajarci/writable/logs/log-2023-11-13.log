@@ -1,0 +1,30 @@
+CRITICAL - 2023-11-13 06:11:46 --> Invalid file: "template.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+ 2 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('template', [], true)
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('latihan_pertama', [], true)
+ 4 APPPATH\Controllers\Latihanpertama.php(13): view('latihan_pertama')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Latihanpertama->lihat()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Latihanpertama))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 06:13:22 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('login', [], true)
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('latihan_pertama', [], true)
+ 4 APPPATH\Controllers\Latihanpertama.php(13): view('latihan_pertama')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Latihanpertama->lihat()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Latihanpertama))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 06:13:22 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('login', [], true)
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('latihan_pertama', [], true)
+ 4 APPPATH\Controllers\Latihanpertama.php(13): view('latihan_pertama')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Latihanpertama->lihat()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Latihanpertama))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
